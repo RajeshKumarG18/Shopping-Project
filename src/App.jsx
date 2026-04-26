@@ -221,7 +221,9 @@ return;
 
 
 
-window.alert(`Order placed! Total: ${money(total)}`);
+window.alert(`Order Confirmed! 
+
+Total: ${money(total)}`);
 
 setCart({});
 
