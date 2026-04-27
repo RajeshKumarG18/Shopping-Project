@@ -1,7 +1,7 @@
 :root {
   --bg: #6ae71c;
-  --panel: #c00909;
-  --text: #0e48c7;
+  --panel: #ba0909;
+  --text: #0a20ef;
   --muted: #6b7280;
   --border: #0c388f;
   --shadow: 0 2px 10px rgba(2, 2, 2, 0.08);
@@ -224,7 +224,7 @@ body {
 
 
 .taxline {
-  color: #374151;
+  color: #c0103c;
   font-weight: 700;
 }
 
@@ -267,7 +267,7 @@ body {
 
 .summary-divider {
   margin: 10px 0;
-  color: #6b7280;
+  color: #e8eaef;
   font-weight: 700;
 }
 

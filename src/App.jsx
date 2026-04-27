@@ -23,7 +23,7 @@ const PRODUCTS = [
 function money(n) {
 
 return `$${Number(n || 0).toFixed(2)}`;
-  
+
 }
 
 
@@ -461,7 +461,7 @@ Add to Cart
 {cartItems.length === 0 ? (
 
 
-<div className="cart-empty">Your cart is empty.</div>
+<div className="cart-empty">Your cart is empty</div>
 
 
 
@@ -571,6 +571,7 @@ aria-label={`Increase ${item.name}`}
 
 
 <button
+
 className="qty-btn qty-delete"
 onClick={() => removeItem(item.id)}
 type="button"
@@ -578,7 +579,7 @@ aria-label={`Delete ${item.name}`}
 
 >
 
-Delete
+x
 
 </button>
 
