@@ -1,15 +1,16 @@
 :root {
-  --bg: #efefef;
-  --panel: #ffffff;
-  --text: #111827;
+  --bg: #6ae71c;
+  --panel: #c00909;
+  --text: #0e48c7;
   --muted: #6b7280;
-  --border: #e5e7eb;
-  --shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  --border: #0c388f;
+  --shadow: 0 2px 10px rgba(2, 2, 2, 0.08);
 
-  --green: #00c853;
-  --yellow: #f4b400;
-  --grayPill: #cfd4dc;
+  --green: #0ab451;
+  --yellow: #0d18e9;
+  --grayPill: #26f50f;
 }
+
 
 * {
   box-sizing: border-box;

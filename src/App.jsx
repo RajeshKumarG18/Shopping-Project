@@ -13,6 +13,8 @@ const PRODUCTS = [
   { id: 5, name: "Tablet", price: 230, discountPrice: 18 },
   { id: 6, name: "Camera", price: 300, discountPrice: 20 },
   { id: 7, name: "SmartTV", price: 500, discountPrice: 80 },
+  { id: 8, name: "Washing Machine", price: 600, discountPrice: 70 },
+  { id: 9, name: "Speakers", price: 700, discountPrice: 80 },
 
 ];
 
@@ -21,7 +23,7 @@ const PRODUCTS = [
 function money(n) {
 
 return `$${Number(n || 0).toFixed(2)}`;
-
+  
 }
 
 
